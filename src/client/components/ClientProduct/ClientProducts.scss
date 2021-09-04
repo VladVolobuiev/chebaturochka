@@ -1,0 +1,8 @@
+.client-products-component-page {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 5vw;
+  grid-auto-rows: 1fr;
+  justify-items: center;
+}
