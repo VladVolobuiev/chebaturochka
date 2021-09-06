@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../../../img/DSC_8616.jpg';
-import img2 from '../../../img/DSC_8620.jpg';
-import img3 from '../../../img/DSC_8626.jpg';
+import img1 from '../../../img/DMC_1.jpg';
+import img2 from '../../../img/DMC_1.jpg';
+import img3 from '../../../img/DMC_1.jpg';
 // import egg from '../../../img/egg4.png';
 // import egg1 from '../../../img/eggs1.png';
 // import egg2 from '../../../img/eggs3.png';

@@ -111,7 +111,7 @@
 .block__1__left__card__text {
   position: absolute;
   color: $main_color_white;
-  background-color: $main_color_light_green;
+  background-color: #0064BF;
   border-radius: 1vh 1vh 5vh 5vh;
   padding: 0 0 10vh 0;
   margin-left: 5vw;
@@ -273,13 +273,13 @@
   position: relative;
   height: 75vh;
   width: 100vw;
-  background-color: $main_color_green;
+  background-color: lightblue;
   overflow: hidden;
 }
 
 .block__3__round__dark {
   position: absolute;
-  background-color: $main_color_dark_green;
+  background-color: #0064BF;
   border-radius: 50%;
   height: 150vw;
   width: 150vw;
@@ -587,7 +587,7 @@
 .block__5__header__small {
   text-align: right;
   font-size: calc(1.5vh + 1.5vw);
-  color: $main_color_light_green;
+  color: $main_color_blue;
 }
 
 .block__5__header {
@@ -596,7 +596,7 @@
 }
 
 .block__5__header__text__1 {
-  color: $main_color_light_green;
+  color: $main_color_blue;
   font-size: calc(3vh + 3vw);
 }
 
@@ -965,7 +965,7 @@
 
 .block__6__header__1 {
   white-space: nowrap;
-  color: $main_color_light_green;
+  color: $main_color_blue;
   font-size: calc(3vh + 3vw);
 }
 

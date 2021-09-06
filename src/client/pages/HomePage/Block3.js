@@ -13,11 +13,11 @@ const Block3 = () => {
   return (
     <div className={'block__3__container'}>
       <div className={'block__3__round__dark'} />
-      <Preloader
+      {/* <Preloader
         classname="block__3__logo__lapka__container" //lapka
         viewBox="0 0 1335.000000 1335.000000"
         path={<Block3LogoLapka />}
-      />
+      /> */}
 
       <Row className={'align-items-center'}>
         <Col md={6} className={'block__3__left__container'}>

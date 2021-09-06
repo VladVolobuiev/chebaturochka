@@ -24,13 +24,17 @@ $stroke_width: 30;
 }
 
 .header__text__load__path {
-  stroke-width: $stroke_width * 2;
-  stroke-linejoin: round;
-  stroke: transparent;
-  fill: transparent;
-  stroke-dasharray: 1800%;
-  height: 5vh;
-  animation: 1.5s header__text__load__container 4s linear forwards;
+  // stroke-width: $stroke_width * 2;
+  // stroke-linejoin: round;
+  // stroke: transparent;
+  // fill: transparent;
+  // stroke-dasharray: 1800%;
+  // height: 100%;
+  width:20px;
+  left:0px;
+  margin-right:0px;
+  padding:0px;
+  // animation: 1.5s header__text__load__container 4s linear forwards;
 }
 
 @keyframes header__text__load__container {
@@ -77,7 +81,7 @@ $stroke_width: 30;
   padding: 0 2vh;
   top: -15vh;
   left: 0;
-  background-color: $main_color_green;
+  background-color: lightblue;
   transition: 1s;
   margin-bottom: 1vw;
   overflow: hidden;
@@ -95,7 +99,7 @@ $stroke_width: 30;
 
 .header__dark__round__back {
   position: absolute;
-  background-color: $main_color_dark_green;
+  background-color: #3d81c0;
   border-radius: 50%;
   height: 150vw;
   width: 150vw;
@@ -632,7 +636,7 @@ menu input[type=checkbox]:checked + .drawer-list li:nth-child(50) {
   border-bottom-left-radius: 10vw;
   transition: width 475ms ease-out, transform 450ms ease,
     border-radius 0.8s 0.1s ease;
-  background-color: $main_color_light_green;
+  background-color: #0064BF;
   box-sizing: border-box;
 }
 
@@ -753,7 +757,7 @@ menu input[type=checkbox]:checked + .drawer-list li:nth-child(50) {
   width: 30%;
   height: 100%;
   padding-top: 15vh;
-  background-color: #8cbe1e;
+  background-color: #0064BF;
   border-bottom-left-radius: 10vw;
 }
 

@@ -60,6 +60,7 @@
 }
 
 .calc__input__radio {
+  border: 1px solid $main_color_blue;
 }
 
 //$calc-size: 5vw;
@@ -138,7 +139,7 @@ input[type='radio']:after {
   content: '';
   display: inline-block;
   visibility: visible;
-  border: 1px solid $main_color_green;
+  border: 1px solid $main_color_blue;
   cursor: pointer;
 }
 
@@ -155,17 +156,17 @@ input[type='radio']:checked:after {
   top: -1vw;
   left: 0;
   position: relative;
-  background-color: $main_color_green;
+  background-color: $main_color_blue;
   content: '';
   display: inline-block;
   visibility: visible;
-  border: 1px solid $main_color_green;
+  border: 1px solid $main_color_blue;
   cursor: pointer;
 }
 
 .calculator-header {
   //background-color: $main_color_green;
-  color: $main_color_dark_green;
+  color: #0064BF;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   font-size: 3vh;
@@ -183,12 +184,12 @@ input[type='radio']:checked:after {
 }
 
 .calculator-body-top {
-  color: $main_color_dark_green;
+  color: #0064BF;
 }
 
 .calculator-body-bottom {
   //margin-top: 11vw;
-  color: $main_color_dark_green;
+  color: #0064BF;
   font-weight: bold;
   font-size: 2vw;
   //position: absolute;
@@ -205,7 +206,7 @@ input[type='radio']:checked:after {
 
 .select-border,
 .calculator-input {
-  border: solid 1px $main_color_green;
+  border: solid 1px $main_color_blue;
   border-radius: 59px;
   text-align: center;
   overflow: hidden !important;

@@ -40,11 +40,11 @@ const Block1 = () => {
                 <div className={'block__1__circle'}></div>
                 <div className={'block__1__square'}></div>
                 <div className={'block__1__text'}></div>
-                <Preloader
+                {/* <Preloader
                     classname="block__1__logo__text__container"
                     viewBox='0 420 3360.000000 490.000000'
                     path={<LogoTextBlock1/>}
-                />
+                /> */}
             </div>
 
                 {/*</Col>*/}

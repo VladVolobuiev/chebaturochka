@@ -72,12 +72,12 @@ const Block4 = () => {
       <Row className={'block__4__text__container'}>
         <Col md={6} className={'display__flex__center'}>
           <div className={'block__4__header Bebas-Neue-Bold'}>
-            COMPANY EPIKUR
+            COMPANY CHEBATUROCHKA
           </div>
         </Col>
         <Col md={6} className={'display__flex__center'}>
           <div className={'block__4__text Formular-Light'}>
-            ПРОДУКЦІЯ ТМ” ЕПІКУР” - ЦЕ БІЛЬШЕ НІЖ СМАЧНА Й КОРИСНА КУРОЧКА БЕЗ
+            ПРОДУКЦІЯ ТМ” ЧЕБАТУРОЧКА - ЦЕ БІЛЬШЕ НІЖ СМАЧНА Й КОРИСНА КУРОЧКА БЕЗ
             АНТИБІОТИКІВ ТА ІНШИХ СТИМУЛЯТОРІВ РОСТУ. ВОНА ПОКЛИКАНА ДОПОМАГАТИ
             КОЖНІЙ ЛЮДИНІ ВЕСТИ ЗДОРОВЕ ТА ЩАСЛИВЕ ЖИТТЯ Й БУДУВАТИ ЙОГО ДЛЯ
             БЛИЗЬКИХ.

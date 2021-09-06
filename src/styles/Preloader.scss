@@ -1,8 +1,8 @@
-@import "main-styles.scss";
-@import "main-fonts.scss";
+@import 'main-styles.scss';
+@import 'main-fonts.scss';
 $stroke_width: 30;
 
-.Header__Preloader__container{
+.Header__Preloader__container {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,6 +15,7 @@ $stroke_width: 30;
 //////////////////////////////////////////////////////////////////////////////////////////
 // TEXT PRELOADER
 //////////////////////////////////////////////////////////////////////////////////////////
+
 .preloader__container2 {
   z-index: 3;
   position: absolute;
@@ -26,9 +27,12 @@ $stroke_width: 30;
   //padding: 3vw;
   //width: 80vw;
   animation: 1s anim_logoEpikur__container2 2500ms ease-out forwards;
-  transition: .1s;
+  transition: 0.1s;
 }
-
+.header__text__load__path {
+  // height: 15vh;
+  width:100%;
+}
 @keyframes anim_logoEpikur__container2 {
   to {
     //top: 0;
@@ -39,9 +43,9 @@ $stroke_width: 30;
   }
 }
 .logoEpikur__path2 {
-  stroke-width: $stroke_width *2;
+  stroke-width: $stroke_width * 2;
   stroke-linejoin: round;
-  stroke: $main_color_light_green;
+  stroke: $main_color_blue;
   fill: transparent;
   stroke-dasharray: 1800%;
   animation: 1500ms logoEpikur__path2 0s linear forwards;
@@ -57,7 +61,6 @@ $stroke_width: 30;
   100% {
     fill: $main_color_light_green;
     stroke-dashoffset: 0;
-
   }
 }
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -73,13 +76,13 @@ $stroke_width: 30;
   transform: translate(-50%, -50%);
   width: 30vw;
   animation: 1s anim_logoEpikur__container 2500ms linear forwards;
-  transition: .1s;
+  transition: 0.1s;
 }
 @keyframes anim_logoEpikur__container {
-  0%{
+  0% {
     top: 50%;
     left: 50%;
-}
+  }
   //50% {
   //  left: 20px;
   //  top:50%;
@@ -99,15 +102,15 @@ $stroke_width: 30;
   }
 }
 .logoEpikur__path1 {
-  stroke-width: $stroke_width*0.75;
+  stroke-width: $stroke_width * 0.75;
   stroke-linejoin: round;
   stroke: $main_color_light_green;
   fill: none;
   stroke-dasharray: 3500%;
   animation: 2s anim_logoEpikur__path1 0s linear forwards;
 }
-.logoEpikur__path11{
-  stroke-width: $stroke_width*0.75;
+.logoEpikur__path11 {
+  stroke-width: $stroke_width * 0.75;
   stroke-linejoin: round;
   stroke: $main_color_light_green;
   fill: none;
@@ -162,24 +165,23 @@ $stroke_width: 30;
   }
 }
 
-
 //////////////////////////////////////////////////////////////////////////////////////////
 // media
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @media (max-width: 768px) {
-  .preloader__container2{
-  width: 50vw;
+  .preloader__container2 {
+    width: 50vw;
   }
-  .preloader__container{
+  .preloader__container {
     width: 45vw;
     left: 75%;
   }
   @keyframes anim_logoEpikur__container {
-    0%{
+    0% {
       left: 75%;
     }
-    100%{
+    100% {
       left: 200vw;
     }
   }
@@ -215,16 +217,19 @@ $stroke_width: 30;
   }
 
   .container-burger-menu {
-    //width: 70px;
+    
+    // width: 100%;
+    // padding: 0px;
   }
   .header__text__load__container {
+    // left:0px;
+    // left: 0px;
     //transform: scale(1.5);
   }
-  .head{
+  .head {
     height: 6vh;
   }
 }
-
 
 @media (max-width: 450px) {
   .header__text__load__container {
@@ -244,8 +249,4 @@ $stroke_width: 30;
   .container-burger-menu {
     //width: 50px;
   }
-
 }
-
-
-

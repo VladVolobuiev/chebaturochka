@@ -27,7 +27,7 @@ const Block6 = () => {
     return (
         <div className={'block__6__container'}>
             <div className={'block__6__header'}>
-                <div className={'Bebas-Neue-Bold inline block__5__header__text__1'}>{'EPIKUR '}</div>
+                <div className={'Bebas-Neue-Bold inline block__5__header__text__1'}>{'CHEBATUROCHKA '}</div>
                 <div className={'inline text__space'}>{' '}</div>
                 <div className={'Bebas-Neue-Bold inline block__5__header__text__2'}>СМАЧНА КОМПАНIЯ</div>
             </div>
@@ -150,7 +150,7 @@ const Block6 = () => {
                 <div className={'block__6__text__container'}>
                     <div className={'block__6__header__1 Bebas-Neue-Bold'}>СМАЧНО РАЗОМ З ДРУЗЯМИ</div>
                     <div className={'block__6__text__1 Formular-Light'}>
-                        ПРОДУКЦІЯ ТМ” ЕПІКУР” - ЦЕ БІЛЬШЕ НІЖ СМАЧНА Й КОРИСНА КУРОЧКА БЕЗ АНТИБІОТИКІВ ТА ІНШИХ
+                        ПРОДУКЦІЯ ТМ” ЧЕБАТУРОЧКА” - ЦЕ БІЛЬШЕ НІЖ СМАЧНА Й КОРИСНА КУРОЧКА БЕЗ АНТИБІОТИКІВ ТА ІНШИХ
                         СТИМУЛЯТОРІВ РОСТУ. ВОНА ПОКЛИКАНА ДОПОМАГАТИ КОЖНІЙ ЛЮДИНІ ВЕСТИ ЗДОРОВЕ ТА ЩАСЛИВЕ ЖИТТЯ Й
                         БУДУВАТИ ЙОГО ДЛЯ БЛИЗЬКИХ. МИ МРІЄМО ПРО ЩАСЛИВЕ СУСПІЛЬСТВО, ЩО ВМІЄ РАДІТИ ДРІБНИЦЯМ Й
                         ЦІНУВАТИ КОЖНУ МИТЬ.
