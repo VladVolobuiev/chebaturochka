@@ -111,7 +111,7 @@
 .block__1__left__card__text {
   position: absolute;
   color: $main_color_white;
-  background-color: #0064BF;
+  background-color: #0064bf;
   border-radius: 1vh 1vh 5vh 5vh;
   padding: 0 0 10vh 0;
   margin-left: 5vw;
@@ -279,7 +279,7 @@
 
 .block__3__round__dark {
   position: absolute;
-  background-color: #0064BF;
+  background-color: #0064bf;
   border-radius: 50%;
   height: 150vw;
   width: 150vw;
@@ -1300,8 +1300,8 @@
     align-items: center;
   }
 }
-.block__6__image__container{
-  padding:0;
+.block__6__image__container {
+  padding: 0;
 }
 @media (max-width: 425px) {
   .block__1__left__card__image {
@@ -1360,19 +1360,16 @@
     width: 20vw;
     height: 12vh;
     padding: 0;
-
   }
   .block__6__img1__container {
     top: 15vh;
-
   }
   .block__6__text__container {
     right: 110px;
   }
- 
+
   .block__6__round__back {
     width: 100vw;
-
   }
   .card__container {
     width: 100vw;

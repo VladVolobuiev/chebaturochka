@@ -1,7 +1,13 @@
 @import 'main-styles.scss';
 @import 'main-fonts.scss';
 $stroke_width: 30;
-
+.header__text__load__container {
+  padding: 0px;
+  .header__text__load__path {
+    width: 200%;
+    height: 200%;
+  }
+}
 .header__text__load__container__without__animation {
   stroke: $main_color_white;
   fill: $main_color_white;
